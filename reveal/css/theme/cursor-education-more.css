@@ -1,5 +1,27 @@
+.reveal.overview {
+  background: #eee;
+}
+.reveal.overview .slides section:hover,
+.reveal.overview .slides section.present {
+  outline-color: rgba(255, 121, 0, 0.5);
+}
+.reveal.overview section {
+  background: #fff;
+}
+
 .reveal img.no-border {
     border: none;
     box-shadow: none;
     background: transparent;
+}
+
+.slide0-black small {
+    color: #aaa;
+}
+.slide0-black small a {
+  color: #aaa;
+  border-bottom: 1px #888 solid;
+}
+.slide0-black small a:hover {
+  color: white;
 }
