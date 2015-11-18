@@ -10,9 +10,9 @@
 }
 
 .reveal img.no-border {
-    border: none;
-    box-shadow: none;
-    background: transparent;
+  border: none;
+  box-shadow: none;
+  background: transparent;
 }
 
 .slide0-black small {
@@ -24,4 +24,8 @@
 }
 .slide0-black small a:hover {
   color: white;
+}
+
+.speaker-controls-notes .value {
+  font-size: 10px;
 }
