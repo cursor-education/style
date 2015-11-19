@@ -26,6 +26,17 @@
   color: white;
 }
 
+.slide0-white small {
+    color: white;
+}
+.slide0-white small a {
+  color: white;
+  border-bottom: 1px #888 solid;
+}
+.slide0-white small a:hover {
+  color: white;
+}
+
 .speaker-controls-notes .value {
   font-size: 10px;
 }
