@@ -9,6 +9,24 @@
   background: #fff;
 }
 
+.reveal .progress {
+    height: 5px;
+}
+.reveal .progress span {
+    background: #FF8700;
+}
+
+.reveal .controls div.navigate-left,
+.reveal .controls div.navigate-left.enabled,
+.reveal .controls div.navigate-right,
+.reveal .controls div.navigate-right.enabled,
+.reveal .controls div.navigate-up,
+.reveal .controls div.navigate-up.enabled,
+.reveal .controls div.navigate-down,
+.reveal .controls div.navigate-down.enabled {
+    border-right-color: #FF7600;
+}
+
 .reveal img.no-border {
   border: none;
   box-shadow: none;
