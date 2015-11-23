@@ -25,16 +25,24 @@
 .slide0-black small a:hover {
   color: white;
 }
+.slide0-black .version {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 17px
+}
 
 .slide0-white small {
     color: white;
 }
 .slide0-white small a {
-  color: white;
-  border-bottom: 1px #888 solid;
+  color: rgba(255, 255, 255, 0.9);
+  border-bottom: 1px rgba(255,255,255,0.4) solid;
 }
 .slide0-white small a:hover {
   color: white;
+}
+.slide0-white .version {
+  color: rgba(255, 248, 248, 0.5);
+  font-size: 17px
 }
 
 .speaker-controls-notes .value {
