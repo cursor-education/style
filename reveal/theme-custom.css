@@ -46,6 +46,10 @@
   background: transparent;
 }
 
+.reveal section.text-left {
+  text-align: left;
+}
+
 /* first slide in black colors */
 section.section-black-bg {
   background: rgba(0, 0, 0, 0.6);
