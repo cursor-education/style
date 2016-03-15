@@ -26,8 +26,12 @@ var main = {
   loadDependencies: function (done) {
     var deps = [
           'https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.1/jquery.min.js',
-          'http://cursor-education.github.io/style/reveal/lib/js/head.min.js',
-          'http://cursor-education.github.io/style/reveal/js/reveal.js'
+          'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.2.0/lib/js/head.min.js',
+          'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.2.0/lib/js/html5shiv.min.js',
+          'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.2.0/js/reveal.min.js',
+          'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.2.0/css/reveal.min.css',
+          'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.2.0/css/theme/simple.min.css',
+          'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.2.0/lib/css/zenburn.min.css',
         ];
 
     (function(index) {
