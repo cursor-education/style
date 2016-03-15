@@ -93,3 +93,6 @@ section.section-white .version {
   box-shadow: none;
   background: transparent;
 }
+.reveal ul.items-margin-bottom li {
+  margin-bottom: 10px;
+}
