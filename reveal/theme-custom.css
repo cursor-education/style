@@ -93,7 +93,7 @@ section.section-white .version {
   background: #C57F00;
   color: #FFF;
 }
-.reveal section.text-left {
+.reveal .text-left {
   text-align: left;
 }
 .reveal section img {
