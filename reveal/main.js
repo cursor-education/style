@@ -56,7 +56,7 @@ var main = {
       history: true,
       center: true,
   
-      transition: 'slide',
+      transition: 'zoom',
   
       dependencies: [
         { src: CDN + '/lib/js/classList.js', condition: function() { return !document.body.classList; } },
