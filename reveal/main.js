@@ -1,5 +1,6 @@
 (function() {
-	var CDN_URL = 'http://cursor-education.github.io/style';
+  //var CDN = 'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.2.0';
+  var CDN_URL = 'http://cursor-education.github.io/style';
 
   Reveal.initialize({
     controls: true,
