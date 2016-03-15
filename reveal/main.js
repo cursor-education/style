@@ -3,7 +3,7 @@ var includeScript = function (src) {
   s.type = "text/javascript";
   s.src = src;
   document.body.appendChild(s);
-}
+};
 
 (function() {
   includeScript('http://cursor-education.github.io/style/reveal/lib/js/head.min.js');
