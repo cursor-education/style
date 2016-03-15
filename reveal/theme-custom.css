@@ -1,5 +1,5 @@
-::selection,
-::-moz-selection {
+*::selection,
+*::-moz-selection {
   background: #D47100 !important;
 }
 
