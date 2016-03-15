@@ -85,6 +85,13 @@ section.section-white .version {
 .reveal h2 {
   font-weight: bold;
 }
+.reveal section a {
+  color: #A86D00;
+}
+.reveal section a:hover {
+  background: #C57F00;
+  color: #FFF;
+}
 .reveal section.text-left {
   text-align: left;
 }
