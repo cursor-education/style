@@ -1,3 +1,8 @@
+::selection,
+::-moz-selection {
+  background: #D47100 !important;
+}
+
 /* overview */
 .reveal.overview {
   background: #eee;
