@@ -1,7 +1,4 @@
-.reveal h2 {
-  font-weight: bold;
-}
-
+/* overview */
 .reveal.overview {
   background: #eee;
 }
@@ -13,6 +10,7 @@
   background: #fff;
 }
 
+/* progress */
 .reveal .progress {
   height: 5px;
 }
@@ -20,37 +18,28 @@
   background: #FF8700;
 }
 
-.reveal .controls div.navigate-left,
-.reveal .controls div.navigate-left.enabled {
+/* controls */
+.reveal .controls .navigate-left,
+.reveal .controls .navigate-left.enabled {
   border-right-color: #FF7600;
 }
 
-.reveal .controls div.navigate-right,
-.reveal .controls div.navigate-right.enabled {
+.reveal .controls .navigate-right,
+.reveal .controls .navigate-right.enabled {
   border-left-color: #FF7600;
 }
 
-.reveal .controls div.navigate-up,
-.reveal .controls div.navigate-up.enabled {
+.reveal .controls .navigate-up,
+.reveal .controls .navigate-up.enabled {
   border-bottom-color: #FF7600;
 }
 
-.reveal .controls div.navigate-down,
-.reveal .controls div.navigate-down.enabled {
+.reveal .controls .navigate-down,
+.reveal .controls .navigate-down.enabled {
   border-top-color: #FF7600;
 }
 
-.reveal img.no-border {
-  border: none;
-  box-shadow: none;
-  background: transparent;
-}
-
-.reveal section.text-left {
-  text-align: left;
-}
-
-/* first slide in black colors */
+/* first section in black colors */
 section.section-black-bg {
   background: rgba(0, 0, 0, 0.6);
 }
@@ -71,7 +60,7 @@ section.section-black .version {
   font-size: 1rem;
 }
 
-/* first slide in white colors */
+/* first section in white colors */
 section.section-white small {
   color: white;
 }
@@ -87,6 +76,20 @@ section.section-white .version {
   font-size: 17px
 }
 
+/* notes */
 .speaker-controls-notes .value {
   font-size: 10px;
+}
+
+/* other */
+.reveal h2 {
+  font-weight: bold;
+}
+.reveal section.text-left {
+  text-align: left;
+}
+.reveal img.no-border {
+  border: none;
+  box-shadow: none;
+  background: transparent;
 }
