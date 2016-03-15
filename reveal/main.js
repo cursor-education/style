@@ -1,9 +1,20 @@
 var require = function (src, done) {
-  var s = document.createElement('script');
-      s.type = "text/javascript";
-      s.src = src;
-      s.onload = done;
-
+  var type = src.substr(src.lastIndexOf('.') + 1).toLowerCase()
+    , s;
+  
+  if (type == 'js') {
+    s = document.createElement('script');
+    s.type = "text/javascript";
+    s.src = src;
+  }
+  else if (type == 'css') {
+    s = document.createElement('link');
+    s.rel = 'stylesheet';
+    s.href = src;
+  }
+  
+  s.onload = done;
+  
   document.body.appendChild(s);
 };
 
