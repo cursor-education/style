@@ -2,6 +2,9 @@
 .reveal.overview {
   background: #eee;
 }
+.reveal.overview section img {
+  opacity: 0.3;
+}
 .reveal.overview .slides section:hover,
 .reveal.overview .slides section.present {
   outline-color: rgba(255, 121, 0, 0.5);
