@@ -1,0 +1,81 @@
+.reveal h2 {
+  font-weight: bold;
+}
+
+.reveal.overview {
+  background: #eee;
+}
+.reveal.overview .slides section:hover,
+.reveal.overview .slides section.present {
+  outline-color: rgba(255, 121, 0, 0.5);
+}
+.reveal.overview section {
+  background: #fff;
+}
+
+.reveal .progress {
+    height: 5px;
+}
+.reveal .progress span {
+    background: #FF8700;
+}
+
+.reveal .controls div.navigate-left,
+.reveal .controls div.navigate-left.enabled {
+    border-right-color: #FF7600;
+}
+
+.reveal .controls div.navigate-right,
+.reveal .controls div.navigate-right.enabled {
+    border-left-color: #FF7600;
+}
+
+.reveal .controls div.navigate-up,
+.reveal .controls div.navigate-up.enabled {
+    border-bottom-color: #FF7600;
+}
+
+.reveal .controls div.navigate-down,
+.reveal .controls div.navigate-down.enabled {
+    border-top-color: #FF7600;
+}
+
+.reveal img.no-border {
+  border: none;
+  box-shadow: none;
+  background: transparent;
+}
+
+.slide0-black small {
+    color: #aaa;
+}
+.slide0-black small a {
+  color: #aaa;
+  border-bottom: 1px #888 solid;
+}
+.slide0-black small a:hover {
+  color: white;
+}
+.slide0-black .version {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 17px
+}
+
+.slide0-white small {
+    color: white;
+}
+.slide0-white small a {
+  color: rgba(255, 255, 255, 0.9);
+  border-bottom: 1px rgba(255,255,255,0.4) solid;
+}
+.slide0-white small a:hover {
+  color: white;
+}
+.slide0-white .version {
+  color: rgba(255, 248, 248, 0.5);
+  font-size: 17px
+}
+
+.speaker-controls-notes .value {
+  font-size: 10px;
+}
