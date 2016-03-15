@@ -64,8 +64,7 @@ section.section-black h4 a:hover {
   color: white;
 }
 section.section-black .version {
-  color: rgba(0, 0, 0, 0.5);
-  font-size: 17px
+  font-size: 1rem;
 }
 
 /* first slide in white colors */
