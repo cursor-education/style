@@ -53,14 +53,14 @@ section.section-black-bg {
 section.section-black h2 {
   color: white;
 }
-section.section-black small {
+section.section-black h4,
+section.section-black h4 a {
   color: #aaa;
 }
-section.section-black small a {
-  color: #aaa;
+section.section-black h4 a {
   border-bottom: 1px #888 solid;
 }
-section.section-black small a:hover {
+section.section-black h4 a:hover {
   color: white;
 }
 section.section-black .version {
