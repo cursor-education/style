@@ -111,3 +111,7 @@ section.section-white .version {
 .reveal .fragment.current-visible.current-fragment {
   display: inline-block;
 }
+
+.reveal table.reveal.no-border-bottom tr td {
+  border-bottom: none;
+}
