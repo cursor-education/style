@@ -1,4 +1,14 @@
+var includeScript = function (src) {
+  var s = document.createElement("script");
+  s.type = "text/javascript";
+  s.src = src;
+  document.body.appendChild(s);
+}
+
 (function() {
+  includeScript('http://cursor-education.github.io/style/reveal/lib/js/head.min.js');
+  includeScript('http://cursor-education.github.io/style/reveal/js/reveal.js');
+
   //var CDN = 'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.2.0';
   var CDN_URL = 'http://cursor-education.github.io/style';
 
