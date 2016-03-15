@@ -104,3 +104,10 @@ section.section-white .version {
 .reveal ul.items-margin-bottom li {
   margin-bottom: 10px;
 }
+
+.reveal .fragment.current-visible {
+  display: none;
+}
+.reveal .fragment.current-visible.current-fragment {
+  display: inline-block;
+}
