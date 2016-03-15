@@ -49,7 +49,6 @@ var main = {
   
   initReveal: function () {
     var CDN = 'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.2.0';
-    // var CDN_URL = 'http://cursor-education.github.io/style/reveal';
 
     Reveal.initialize({
       controls: true,
