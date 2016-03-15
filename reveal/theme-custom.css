@@ -14,30 +14,30 @@
 }
 
 .reveal .progress {
-    height: 5px;
+  height: 5px;
 }
 .reveal .progress span {
-    background: #FF8700;
+  background: #FF8700;
 }
 
 .reveal .controls div.navigate-left,
 .reveal .controls div.navigate-left.enabled {
-    border-right-color: #FF7600;
+  border-right-color: #FF7600;
 }
 
 .reveal .controls div.navigate-right,
 .reveal .controls div.navigate-right.enabled {
-    border-left-color: #FF7600;
+  border-left-color: #FF7600;
 }
 
 .reveal .controls div.navigate-up,
 .reveal .controls div.navigate-up.enabled {
-    border-bottom-color: #FF7600;
+  border-bottom-color: #FF7600;
 }
 
 .reveal .controls div.navigate-down,
 .reveal .controls div.navigate-down.enabled {
-    border-top-color: #FF7600;
+  border-top-color: #FF7600;
 }
 
 .reveal img.no-border {
@@ -46,35 +46,40 @@
   background: transparent;
 }
 
-.slide0-black h2 {
+/* first slide in black colors */
+section.section-black-bg {
+  background: rgba(0, 0, 0, 0.6);
+}
+section.section-black h2 {
   color: white;
 }
-.slide0-black small {
-    color: #aaa;
+section.section-black small {
+  color: #aaa;
 }
-.slide0-black small a {
+section.section-black small a {
   color: #aaa;
   border-bottom: 1px #888 solid;
 }
-.slide0-black small a:hover {
+section.section-black small a:hover {
   color: white;
 }
-.slide0-black .version {
+section.section-black .version {
   color: rgba(0, 0, 0, 0.5);
   font-size: 17px
 }
 
-.slide0-white small {
-    color: white;
+/* first slide in white colors */
+section.section-white small {
+  color: white;
 }
-.slide0-white small a {
+section.section-white small a {
   color: rgba(255, 255, 255, 0.9);
   border-bottom: 1px rgba(255,255,255,0.4) solid;
 }
-.slide0-white small a:hover {
+section.section-white small a:hover {
   color: white;
 }
-.slide0-white .version {
+section.section-white .version {
   color: rgba(255, 248, 248, 0.5);
   font-size: 17px
 }
