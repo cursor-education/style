@@ -87,6 +87,7 @@ section.section-white .version {
 }
 .reveal section a {
   color: #A86D00;
+  transition-property: background, color;
 }
 .reveal section a:hover {
   background: #C57F00;
