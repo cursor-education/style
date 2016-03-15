@@ -46,6 +46,9 @@
   background: transparent;
 }
 
+.slide0-black h2 {
+  color: white;
+}
 .slide0-black small {
     color: #aaa;
 }
