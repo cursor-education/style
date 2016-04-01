@@ -123,3 +123,7 @@ section.section-white .version {
 .reveal table.reveal.no-border-bottom tr td {
   border-bottom: none;
 }
+
+.reveal pre code[data-trim] {
+  padding: 20px;
+}
