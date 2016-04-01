@@ -67,6 +67,10 @@ var main = {
         { src: CDN + '/plugin/notes/notes.js', async: true }
       ]
     });
+    
+    setTimeout(function () {
+      hljs.initHighlighting();
+    }, 2000);
   }
 };
 
