@@ -64,7 +64,8 @@ var main = {
         { src: CDN + '/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector('[data-markdown]'); } },
         { src: CDN + '/plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector('pre code'); }, callback: function() { hljs.initHighlightingOnLoad(); } },
         { src: CDN + '/plugin/zoom-js/zoom.js', async: true },
-        { src: CDN + '/plugin/notes/notes.js', async: true }
+        //{ src: CDN + '/plugin/notes/notes.js', async: true }
+        { src: 'https://cdn.jsdelivr.net/reveal.js/3.0.0/plugin/notes/notes.js', async: true }
       ]
     });
     
