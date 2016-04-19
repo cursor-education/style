@@ -32,7 +32,7 @@ var main = {
           'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.2.0/css/reveal.min.css',
           'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.2.0/css/theme/simple.min.css',
           'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.2.0/lib/css/zenburn.min.css',
-          'http://cursor-education.github.io/style/reveal/theme-custom.css'
+          '//cursor-education.github.io/style/reveal/theme-custom.css'
         ];
 
     (function(index) {
