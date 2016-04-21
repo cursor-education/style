@@ -32,7 +32,7 @@ var main = {
           '//cdnjs.cloudflare.com/ajax/libs/reveal.js/3.2.0/css/reveal.min.css',
           '//cdnjs.cloudflare.com/ajax/libs/reveal.js/3.2.0/css/theme/simple.min.css',
           '//cdnjs.cloudflare.com/ajax/libs/reveal.js/3.2.0/lib/css/zenburn.min.css',
-          '//cursor-education.github.io/style/reveal/theme-custom.css'
+          '/style/reveal/theme-custom.css'
         ];
 
     (function(index) {
@@ -65,7 +65,8 @@ var main = {
         { src: CDN + '/plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector('pre code'); }, callback: function() { hljs.initHighlightingOnLoad(); } },
         { src: CDN + '/plugin/zoom-js/zoom.js', async: true },
         //{ src: CDN + '/plugin/notes/notes.js', async: true }
-        { src: '//cdn.jsdelivr.net/reveal.js/3.0.0/plugin/notes/notes.js', async: true }
+        //{ src: '//cdn.jsdelivr.net/reveal.js/3.0.0/plugin/notes/notes.js', async: true }
+        { src: '/style/reveal/plugin-notes.js', async: true }
       ]
     });
     
