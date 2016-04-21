@@ -25,13 +25,13 @@ var main = {
   
   loadDependencies: function (done) {
     var deps = [
-          'https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.1/jquery.min.js',
-          'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.2.0/lib/js/head.min.js',
-          'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.2.0/lib/js/html5shiv.min.js',
-          'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.2.0/js/reveal.min.js',
-          'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.2.0/css/reveal.min.css',
-          'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.2.0/css/theme/simple.min.css',
-          'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.2.0/lib/css/zenburn.min.css',
+          '//cdnjs.cloudflare.com/ajax/libs/jquery/2.2.1/jquery.min.js',
+          '//cdnjs.cloudflare.com/ajax/libs/reveal.js/3.2.0/lib/js/head.min.js',
+          '//cdnjs.cloudflare.com/ajax/libs/reveal.js/3.2.0/lib/js/html5shiv.min.js',
+          '//cdnjs.cloudflare.com/ajax/libs/reveal.js/3.2.0/js/reveal.min.js',
+          '//cdnjs.cloudflare.com/ajax/libs/reveal.js/3.2.0/css/reveal.min.css',
+          '//cdnjs.cloudflare.com/ajax/libs/reveal.js/3.2.0/css/theme/simple.min.css',
+          '//cdnjs.cloudflare.com/ajax/libs/reveal.js/3.2.0/lib/css/zenburn.min.css',
           '//cursor-education.github.io/style/reveal/theme-custom.css'
         ];
 
@@ -48,7 +48,7 @@ var main = {
   },
   
   initReveal: function () {
-    var CDN = 'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.2.0';
+    var CDN = '//cdnjs.cloudflare.com/ajax/libs/reveal.js/3.2.0';
 
     Reveal.initialize({
       controls: true,
@@ -65,7 +65,7 @@ var main = {
         { src: CDN + '/plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector('pre code'); }, callback: function() { hljs.initHighlightingOnLoad(); } },
         { src: CDN + '/plugin/zoom-js/zoom.js', async: true },
         //{ src: CDN + '/plugin/notes/notes.js', async: true }
-        { src: 'https://cdn.jsdelivr.net/reveal.js/3.0.0/plugin/notes/notes.js', async: true }
+        { src: '//cdn.jsdelivr.net/reveal.js/3.0.0/plugin/notes/notes.js', async: true }
       ]
     });
     
